@@ -1,0 +1,111 @@
+html{
+height: 100%;
+}
+body{
+	background:#090D0A;
+	margin: 0;
+	color: white;
+	font-family: "Trebuchet MS";
+	min-height: 100%;
+}
+
+/*---------------HEADER--------------*/
+
+#header{
+	background:#071418;
+	height:120px;
+	margin: 0;
+	padding: 0;
+}
+
+#header h1{
+	float: left;
+	margin: 20px 0 0 170px;
+	color:#EEB12C;
+	border: 2px solid #EEB12C;
+	padding: 25px 60px;
+
+}
+
+#menu ul {
+    margin: 0 160px;
+    padding: 0;
+    overflow: hidden;
+	list-style-type: none;
+}
+
+#menu ul li {
+  float: right;
+  margin: 80px 0;
+
+}
+
+#menu ul li:hover {
+  background-color: #1C3636;
+
+}
+
+#menu ul li a {
+	display: block;
+	color:  #EEB12C;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+/*---------------CONTENIDO--------------*/
+#contenido{
+	width: 80%;
+	background-color: #071418;
+	margin: auto;
+	padding: 10px;
+}
+#toxie img{
+	float: right;
+	margin: 80px 0;
+	padding-left: 10px;
+}
+h2{
+	color:#EEB12C;
+	font-family: century;
+	font-size: 24px;
+	background-color: #35575C;
+	padding: 5px;
+}
+
+h3{
+	color:#EEB12C;
+	font-family: century;
+	font-size: 24px;
+	background-color:#35575C;
+	padding: 5px;
+}
+/*--------------INDICE-----------------------*/
+#indice{
+	border:1px solid  #EEB12C;
+	width: 20%;
+}
+
+#indice ul li a{
+	color: #EEB12C;
+}
+.iconos_lista{
+	list-style:url("imgs/gota2.png");
+}
+
+/*------------------REFERENCIAS-------------------*/
+ol li {
+	color:#EEB12C;
+}
+ol li a{
+	color:#EEB12C;
+}
+ol li a:visited{
+	color: #327959;
+}
+
+/*-------------------------------------------------------------*/
+
+#footer{
+	background-color: #151515;
+	padding: 30px;
+}
